@@ -1,6 +1,138 @@
+# 🧠 MindMate – Digital Psychological Intervention System
+
+### 🌍 Empowering College Students to Prioritize Mental Health
+
+---
+
+## 🧾 Project Description
+
+**MindMate** is an AI-driven mental health support platform designed specifically for **college students**. The system offers early intervention through AI-guided conversations, educational resources, and confidential counseling appointments.
+
+It aims to **bridge the gap between students and mental health support** by providing accessible, stigma-free, and personalized digital assistance — helping students manage **stress, anxiety, burnout, depression, and social isolation** effectively.
+
+---
+
+## ❗ Problem Statement
+
+Mental health issues like **academic stress, anxiety, and depression** have become increasingly common among students. Due to stigma, lack of awareness, or unavailability of counselors, many students **hesitate to seek help**.
+This leads to declining academic performance, reduced self-esteem, and long-term emotional distress.
+
+There is a **need for a digital-first, confidential, and approachable system** that encourages students to take the first step toward improving their mental well-being.
+
+---
+
+## 💡 Proposed Solution
+
+**MindMate** provides a holistic, tech-enabled solution by combining **AI-driven support**, **counseling appointment management**, and **psychoeducational content**.
+
+Students can chat with an **AI-based emotional support assistant** for immediate coping strategies, explore scientifically curated **mental health resources**, and **book private sessions** with counselors when needed.
+
+---
+
+## 🎯 Target Audience
+
+* 🎓 **College and university students** facing academic, emotional, or social stress.
+* 🧑‍🏫 **Counselors and institutions** seeking digital tools to support student well-being.
+
+---
+
+## ⚙️ Key Features
+
+✅ **AI Mental Health Assistant** – Provides first-level psychological aid and coping tips using natural language understanding.
+✅ **Confidential Appointment Booking** – Enables students to connect with counselors or helplines anonymously.
+✅ **Resource Hub** – Offers verified educational material on stress management, mindfulness, and emotional wellness.
+✅ **AI-Powered Self-Help Chatbot** – Gives instant suggestions for mood regulation, motivation, and focus.
+✅ **Admin Dashboard** – Allows administrators to manage counselors, appointments, and educational resources.
+
+---
+
+## 🧠 Technical Approach & Tech Stack
+
+| Layer               | Technology Used                                                               |
+| ------------------- | ----------------------------------------------------------------------------- |
+| **Frontend**        | React.js, Tailwind CSS                                                        |
+| **Backend**         | Node.js, Express.js                                                           |
+| **Database**        | MongoDB                                                                       |
+| **AI Integration**  | Gemini API (for contextual understanding and emotional support conversations) |
+| **Authentication**  | JWT-based user authentication                                                 |
+| **Deployment**      | Vercel (Frontend), Render/Heroku (Backend)                                    |
+| **Version Control** | GitHub                                                                        |
+
+---
+
+## 🧩 Architecture Overview
+
+1. **Frontend (React + Tailwind)**
+
+   * Interactive and responsive UI for students and counselors.
+2. **Backend (Node + Express)**
+
+   * REST APIs handling authentication, bookings, and chatbot queries.
+3. **AI Layer (Gemini API)**
+
+   * Processes user input and generates empathetic, context-aware responses.
+4. **Database (MongoDB)**
+
+   * Stores user details, appointments, and resource data securely.
+
+---
+
+## 🚀 Future Scope
+
+* 🤖 Integration with **emotion detection** through voice or facial sentiment analysis.
+* 🧘 Addition of **guided meditation and CBT-based exercises**.
+* 🩺 Collaboration with certified psychologists for real-time consultations.
+* 📱 Mobile app version for on-the-go accessibility.
+* 🌐 Multi-language support to reach a wider audience.
+
+---
+
+## 🏁 Deployment
+
+The project is live at:
+👉 [https://mind-mate-eprv.vercel.app](https://mind-mate-eprv.vercel.app)
+
+The project Live Demo Video at:
+👉 [https://youtu.be/E1a19FJ-uiU](https://youtu.be/E1a19FJ-uiU)
+
+---
+
+## 📸 Screenshots
+
+<img width="1909" height="904" alt="screenshot-1761749746217" src="https://github.com/user-attachments/assets/6468f71f-63ac-4fca-bb66-cfc419159608" />
+<img width="1909" height="904" alt="screenshot-1761749777790" src="https://github.com/user-attachments/assets/985c9a6c-93d7-4aa1-bec8-0198cbc6e875" />
+<img width="1909" height="904" alt="screenshot-1761749581780" src="https://github.com/user-attachments/assets/05c8c17b-f5b7-4c9e-b1bc-db5ed5e90b38" />
+<img width="1909" height="904" alt="screenshot-1761749631357" src="https://github.com/user-attachments/assets/6fa16746-d645-4e42-8bbc-359b4edc5337" />
+<img width="1909" height="904" alt="screenshot-1761749698578" src="https://github.com/user-attachments/assets/e5c094a1-f662-48ed-90b1-844868a3cc6d" />
+<img width="1909" height="904" alt="screenshot-1761749719010" src="https://github.com/user-attachments/assets/8a8673cb-d352-4e8b-b990-a9972d134ebc" />
+
+
+
+## 🪄 How to Run Locally
+
+```bash
+# Clone this repository
+git clone https://github.com/PriyankaB-11/MindMate.git
+
+# Navigate to project folder
+cd MindMate
+
+# Install dependencies
+npm install
+
+# Set environment variables (.env)
+PORT=5000
+MONGODB_URI=your_mongo_uri
+JWT_SECRET=your_secret_key
+FRONTEND_URL=http://localhost:3000
+GEMINI_API_KEY=your_gemini_api_key
+
+# Start the website
+npm run server
 
 ```
-skitbitagency2 (4)
+
+MindMate
 ├─ app
 │  ├─ About
 │  │  ├─ loading.tsx
